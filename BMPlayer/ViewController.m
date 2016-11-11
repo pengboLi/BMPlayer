@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PlayViewController.h"
 
 @interface ViewController ()
 
@@ -15,10 +16,18 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIButton *playButton =[UIButton buttonWithType:UIButtonTypeCustom];
+    playButton.frame =CGRectMake(100, 80, 200, 40);
+    playButton.center =self.view.center;
+    [playButton setTitle:@"播放" forState:UIControlStateNormal];
+    playButton.backgroundColor =[UIColor redColor];
+    [playButton addTarget:self action:@selector(play) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:playButton];
 }
-
+-(void)play{
+    PlayViewController *view =[[PlayViewController alloc] init];
+    [self.navigationController pushViewController:view animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

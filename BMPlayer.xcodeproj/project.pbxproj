@@ -16,6 +16,22 @@
 		84690E851DD5618D00E95056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84690E831DD5618D00E95056 /* LaunchScreen.storyboard */; };
 		84690E901DD5618D00E95056 /* BMPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84690E8F1DD5618D00E95056 /* BMPlayerTests.m */; };
 		84690E9B1DD5618D00E95056 /* BMPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84690E9A1DD5618D00E95056 /* BMPlayerUITests.m */; };
+		84690EA91DD561B600E95056 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84690EA81DD561B600E95056 /* MediaPlayer.framework */; };
+		84690EAD1DD562DF00E95056 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84690EAC1DD562DF00E95056 /* PlayerView.m */; };
+		84690EB01DD564B000E95056 /* Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 84690EAF1DD564B000E95056 /* Slider.m */; };
+		84690EB31DD565FE00E95056 /* UIImage+ScaleToSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 84690EB21DD565FE00E95056 /* UIImage+ScaleToSize.m */; };
+		84690EB61DD5667B00E95056 /* UIImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84690EB51DD5667B00E95056 /* UIImage+TintColor.m */; };
+		84690EB91DD566AD00E95056 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 84690EB81DD566AD00E95056 /* UIView+SetRect.m */; };
+		84690EC11DD568E300E95056 /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 84690EBB1DD568E300E95056 /* backBtn.png */; };
+		84690EC21DD568E300E95056 /* maxBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 84690EBC1DD568E300E95056 /* maxBtn.png */; };
+		84690EC31DD568E300E95056 /* minBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 84690EBD1DD568E300E95056 /* minBtn.png */; };
+		84690ECC1DD58CA200E95056 /* pauseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84690EC71DD58CA200E95056 /* pauseBtn@2x.png */; };
+		84690ECD1DD58CA200E95056 /* pauseBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84690EC81DD58CA200E95056 /* pauseBtn@3x.png */; };
+		84690ECF1DD58CA200E95056 /* round@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84690ECA1DD58CA200E95056 /* round@2x.png */; };
+		84690ED01DD58CA200E95056 /* round@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84690ECB1DD58CA200E95056 /* round@3x.png */; };
+		84690ED31DD5991F00E95056 /* playBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84690ED11DD5991F00E95056 /* playBtn@2x.png */; };
+		84690ED41DD5991F00E95056 /* playBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84690ED21DD5991F00E95056 /* playBtn@3x.png */; };
+		84690ED71DD59ACC00E95056 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84690ED61DD59ACC00E95056 /* PlayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +69,28 @@
 		84690E961DD5618D00E95056 /* BMPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84690E9A1DD5618D00E95056 /* BMPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMPlayerUITests.m; sourceTree = "<group>"; };
 		84690E9C1DD5618D00E95056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84690EA81DD561B600E95056 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		84690EAB1DD562DF00E95056 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		84690EAC1DD562DF00E95056 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		84690EAE1DD564B000E95056 /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
+		84690EAF1DD564B000E95056 /* Slider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slider.m; sourceTree = "<group>"; };
+		84690EB11DD565FE00E95056 /* UIImage+ScaleToSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleToSize.h"; sourceTree = "<group>"; };
+		84690EB21DD565FE00E95056 /* UIImage+ScaleToSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleToSize.m"; sourceTree = "<group>"; };
+		84690EB41DD5667B00E95056 /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
+		84690EB51DD5667B00E95056 /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
+		84690EB71DD566AD00E95056 /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		84690EB81DD566AD00E95056 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		84690EBB1DD568E300E95056 /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
+		84690EBC1DD568E300E95056 /* maxBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxBtn.png; sourceTree = "<group>"; };
+		84690EBD1DD568E300E95056 /* minBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minBtn.png; sourceTree = "<group>"; };
+		84690EC71DD58CA200E95056 /* pauseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pauseBtn@2x.png"; sourceTree = "<group>"; };
+		84690EC81DD58CA200E95056 /* pauseBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pauseBtn@3x.png"; sourceTree = "<group>"; };
+		84690ECA1DD58CA200E95056 /* round@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round@2x.png"; sourceTree = "<group>"; };
+		84690ECB1DD58CA200E95056 /* round@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round@3x.png"; sourceTree = "<group>"; };
+		84690ED11DD5991F00E95056 /* playBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playBtn@2x.png"; sourceTree = "<group>"; };
+		84690ED21DD5991F00E95056 /* playBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playBtn@3x.png"; sourceTree = "<group>"; };
+		84690ED51DD59ACC00E95056 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		84690ED61DD59ACC00E95056 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84690EA91DD561B600E95056 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +122,7 @@
 		84690E661DD5618D00E95056 = {
 			isa = PBXGroup;
 			children = (
+				84690EA81DD561B600E95056 /* MediaPlayer.framework */,
 				84690E711DD5618D00E95056 /* BMPlayer */,
 				84690E8E1DD5618D00E95056 /* BMPlayerTests */,
 				84690E991DD5618D00E95056 /* BMPlayerUITests */,
@@ -103,10 +143,14 @@
 		84690E711DD5618D00E95056 /* BMPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				84690EBA1DD568E300E95056 /* Resources */,
+				84690EAA1DD562B800E95056 /* BMPlayer */,
 				84690E751DD5618D00E95056 /* AppDelegate.h */,
 				84690E761DD5618D00E95056 /* AppDelegate.m */,
 				84690E781DD5618D00E95056 /* ViewController.h */,
 				84690E791DD5618D00E95056 /* ViewController.m */,
+				84690ED51DD59ACC00E95056 /* PlayViewController.h */,
+				84690ED61DD59ACC00E95056 /* PlayViewController.m */,
 				84690E7B1DD5618D00E95056 /* Main.storyboard */,
 				84690E811DD5618D00E95056 /* Assets.xcassets */,
 				84690E831DD5618D00E95056 /* LaunchScreen.storyboard */,
@@ -141,6 +185,39 @@
 				84690E9C1DD5618D00E95056 /* Info.plist */,
 			);
 			path = BMPlayerUITests;
+			sourceTree = "<group>";
+		};
+		84690EAA1DD562B800E95056 /* BMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				84690EAB1DD562DF00E95056 /* PlayerView.h */,
+				84690EAC1DD562DF00E95056 /* PlayerView.m */,
+				84690EAE1DD564B000E95056 /* Slider.h */,
+				84690EAF1DD564B000E95056 /* Slider.m */,
+				84690EB11DD565FE00E95056 /* UIImage+ScaleToSize.h */,
+				84690EB21DD565FE00E95056 /* UIImage+ScaleToSize.m */,
+				84690EB41DD5667B00E95056 /* UIImage+TintColor.h */,
+				84690EB51DD5667B00E95056 /* UIImage+TintColor.m */,
+				84690EB71DD566AD00E95056 /* UIView+SetRect.h */,
+				84690EB81DD566AD00E95056 /* UIView+SetRect.m */,
+			);
+			path = BMPlayer;
+			sourceTree = "<group>";
+		};
+		84690EBA1DD568E300E95056 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84690ED11DD5991F00E95056 /* playBtn@2x.png */,
+				84690ED21DD5991F00E95056 /* playBtn@3x.png */,
+				84690EC71DD58CA200E95056 /* pauseBtn@2x.png */,
+				84690EC81DD58CA200E95056 /* pauseBtn@3x.png */,
+				84690ECA1DD58CA200E95056 /* round@2x.png */,
+				84690ECB1DD58CA200E95056 /* round@3x.png */,
+				84690EBB1DD568E300E95056 /* backBtn.png */,
+				84690EBC1DD568E300E95056 /* maxBtn.png */,
+				84690EBD1DD568E300E95056 /* minBtn.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +323,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84690EC21DD568E300E95056 /* maxBtn.png in Resources */,
+				84690ED01DD58CA200E95056 /* round@3x.png in Resources */,
+				84690EC31DD568E300E95056 /* minBtn.png in Resources */,
+				84690ECF1DD58CA200E95056 /* round@2x.png in Resources */,
 				84690E851DD5618D00E95056 /* LaunchScreen.storyboard in Resources */,
 				84690E821DD5618D00E95056 /* Assets.xcassets in Resources */,
 				84690E7D1DD5618D00E95056 /* Main.storyboard in Resources */,
+				84690EC11DD568E300E95056 /* backBtn.png in Resources */,
+				84690ECC1DD58CA200E95056 /* pauseBtn@2x.png in Resources */,
+				84690ECD1DD58CA200E95056 /* pauseBtn@3x.png in Resources */,
+				84690ED41DD5991F00E95056 /* playBtn@3x.png in Resources */,
+				84690ED31DD5991F00E95056 /* playBtn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +359,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84690EB61DD5667B00E95056 /* UIImage+TintColor.m in Sources */,
 				84690E7A1DD5618D00E95056 /* ViewController.m in Sources */,
+				84690EB31DD565FE00E95056 /* UIImage+ScaleToSize.m in Sources */,
 				84690E801DD5618D00E95056 /* BMPlayer.xcdatamodeld in Sources */,
 				84690E771DD5618D00E95056 /* AppDelegate.m in Sources */,
 				84690E741DD5618D00E95056 /* main.m in Sources */,
+				84690EB01DD564B000E95056 /* Slider.m in Sources */,
+				84690EB91DD566AD00E95056 /* UIView+SetRect.m in Sources */,
+				84690ED71DD59ACC00E95056 /* PlayViewController.m in Sources */,
+				84690EAD1DD562DF00E95056 /* PlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,8 +510,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BMPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.youke.BMPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youke.CZhao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -429,8 +522,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BMPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.youke.BMPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youke.CZhao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -500,6 +594,7 @@
 				84690EA11DD5618D00E95056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84690EA21DD5618D00E95056 /* Build configuration list for PBXNativeTarget "BMPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +603,7 @@
 				84690EA41DD5618D00E95056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84690EA51DD5618D00E95056 /* Build configuration list for PBXNativeTarget "BMPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +612,7 @@
 				84690EA71DD5618D00E95056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
